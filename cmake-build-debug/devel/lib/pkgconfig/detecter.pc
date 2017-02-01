@@ -1,0 +1,8 @@
+prefix=/home/zh/catkin_ws/src/detecter/cmake-build-debug/devel
+
+Name: detecter
+Description: Description of detecter
+Version: 0.0.0
+Cflags: -I/home/zh/catkin_ws/src/detecter/cmake-build-debug/devel/include
+Libs: -L/home/zh/catkin_ws/src/detecter/cmake-build-debug/devel/lib -ldetecter
+Requires: roscpp rospy std_msgs cv_bridge image_transport geometry_msgs message_generation

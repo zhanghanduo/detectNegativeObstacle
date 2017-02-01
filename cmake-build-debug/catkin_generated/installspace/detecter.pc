@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: detecter
+Description: Description of detecter
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -ldetecter
+Requires: roscpp rospy std_msgs cv_bridge image_transport geometry_msgs message_generation
